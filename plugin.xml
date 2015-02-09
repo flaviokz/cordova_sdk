@@ -31,10 +31,12 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
+        <!--
         <source-file src="src/android/Adjust/Adjust/src/com/adjust/sdk"
             target-dir="src/com/adjust" />
         <source-file src="src/android/com/adjust/sdk/AdjustCordova.java"
             target-dir="src/com/adjust/sdk" />
+        -->
     </platform>
     <!-- ios -->
     <platform name="ios">
