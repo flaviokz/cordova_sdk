@@ -1,5 +1,5 @@
 {
-    "appToken" : "{yourAppToken}",
+    "appToken" : "bmwqxxwzf25u",
     "environment" : "sandbox",
     "logLevel" : "info",
     "enableEventBuffering" : "false"
