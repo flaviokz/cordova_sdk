@@ -1,7 +1,10 @@
 function callCordova (action) {
     var args = Array.prototype.slice.call(arguments, 1);
     cordova.exec(function callback(data) { },
-                 function errorHandler(err) { },
+                 function errorHandler(err) {
+                     console.log('error callCordova');
+                     console.log(err);
+                 },
                  'Adjust',
                  action,
                  args
@@ -11,7 +14,10 @@ function callCordova (action) {
 function callCordovaCallback (action, callback) {
     var args = Array.prototype.slice.call(arguments, 2);
     cordova.exec(callback,
-        function errorHandler(err) { },
+        function errorHandler(err) {
+            console.log('error callCordovaCallback');
+            console.log(err);
+        },
         'Adjust',
         action,
         args
