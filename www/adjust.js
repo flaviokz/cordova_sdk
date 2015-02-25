@@ -37,10 +37,10 @@ var Adjust= {
 };
 
 function startAdjust() {
-    var appToken = '{adjust_appToken}';
-    var environment = '{adjust_environment}';
-    var logLevel = '{adjust_logLevel}';
-    var enableEventBuffering = '{adjust_enableEventBuffering}';
+    var appToken = 'bmwqxxwzf25u';
+    var environment = 'sandbox';
+    var logLevel = 'info';
+    var enableEventBuffering = 'false';
     callCordova('appDidLaunch', appToken, environment,
             logLevel, enableEventBuffering);
 }
