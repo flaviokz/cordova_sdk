@@ -1,6 +1,6 @@
 {
     "appToken" : "gpv7ey77brcr",
-    "environment" : "sandbox",
+    "environment" : "production",
     "logLevel" : "info",
     "enableEventBuffering" : "false"
 }
