@@ -61,7 +61,7 @@
         <header-file src="src/ios/sdk/Adjust/AIAdjustFactory.h" />
         <source-file src="src/ios/sdk/Adjust/AIAdjustFactory.m" />
         <header-file src="src/ios/sdk/Adjust/AILogger.h" />
-        <source-file src="src/ios/sdk/Adjust/AILogger.m" /> 
+        <source-file src="src/ios/sdk/Adjust/AILogger.m" />
         <header-file src="src/ios/sdk/Adjust/AIPackageBuilder.h" />
         <source-file src="src/ios/sdk/Adjust/AIPackageBuilder.m" />
         <header-file src="src/ios/sdk/Adjust/AIPackageHandler.h" />
