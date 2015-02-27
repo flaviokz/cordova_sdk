@@ -41,7 +41,7 @@ var Adjust= {
 
 function startAdjust() {
     var appToken = 'gpv7ey77brcr';
-    var environment = 'production';
+    var environment = 'sandbox';
     var logLevel = 'info';
     var enableEventBuffering = 'false';
     callCordova('appDidLaunch', appToken, environment,
