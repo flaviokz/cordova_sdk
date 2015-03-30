@@ -40,7 +40,7 @@ var Adjust= {
 };
 
 function startAdjust() {
-    var appToken = 'gpv7ey77brcr';
+    var appToken = 'gprtmvhymq4h';
     var environment = 'sandbox';
     var logLevel = 'info';
     var enableEventBuffering = 'false';
