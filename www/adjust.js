@@ -1,3 +1,4 @@
+/*
 function callCordova (action) {
     var args = Array.prototype.slice.call(arguments, 1);
     cordova.exec(function callback(data) {
@@ -59,3 +60,4 @@ document.addEventListener('resume', onResume, false);
 document.addEventListener('pause', onPause, false);
 
 module.exports = Adjust;
+*/
